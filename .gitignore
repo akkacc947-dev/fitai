@@ -1,0 +1,43 @@
+# Python kesh fayllari
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+htmlcov/
+.toml
+
+# Virtual muhit (Virtual Environments)
+venv/
+.venv/
+env/
+ENV/
+bin/
+include/
+lib/
+share/
+
+# Maxfiy muhit fayllari (TOKEN va API kalitlar)
+.env
+.env.local
+.env.*
+*.env
+
+# Ma'lumotlar bazasi (SQLite va boshqalar)
+*.db
+*.sqlite
+*.sqlite3
+fitai_database.db
+
+# IDE va tahrirlovchilar sozlamalari
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Tizim fayllari (OS specific)
+.DS_Store
+Thumbs.db
